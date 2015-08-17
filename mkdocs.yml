@@ -1,0 +1,14 @@
+site_name: SSH for dummies
+
+pages:
+- 'Home': index.md
+- 'Server':
+    - 'Installation': install.md
+    - 'Konfiguration des ssh Daemon': sshd.md
+- 'Client':
+    - 'Schlüsselverwaltung': key_management.md
+    - 'Schlüsselgenerierung': keygen.md
+    - 'Konfiguration des SSH Client': ssh-client.md
+    - 'SSH Agent': ssh-agent.md
+    - 'Port Weiterleitung': port-forwarding.md
+- Autor: author.md

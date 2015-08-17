@@ -1,0 +1,2 @@
+# Installation des SSH Server
+Die Installation des SSH Server aus dem Quelltext wird hier nicht näher beschrieben. Auf den meisten modernen Unix Systemen sollte sich die SSH einfach über den Paketmanager installieren lassen.

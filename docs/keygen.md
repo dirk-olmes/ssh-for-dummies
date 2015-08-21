@@ -4,7 +4,7 @@ Zur Erzeugung eines neuen SSH Schlüssels verwendet man den Befehl `ssh-keygen`.
 ```no-highlight
 % ssh-keygen
 Generating public/private rsa key pair.
-Enter file in which to save the key (/home/dirk/.ssh/id_rsa):
+Enter file in which to save the key (/home/hansi/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):
 Enter same passphrase again:
 Your identification has been saved in /home/hansi/.ssh/id_rsa.
@@ -26,3 +26,5 @@ The key's randomart image is:
 ```
 
 Bei der Abfrage des Dateinamens muss man aufpassen: gibt man hier nur den Dateinamen und keinen vollständigen Pfad an, wird das Schlüsselpaar im aktuellen Verzeichnis gespeichert.
+
+Man kann einen Schlüssel ohne Passwort generieren, dazu einfach bei der Abfrage des Passworts die Eingabetaste drücken. Dieser Schlüssel ist dann allerdings ungeschützt. Jeder, der den Schlüssel besitzt, kann sich auf dem entfernten System anmelden.

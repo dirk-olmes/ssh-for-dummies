@@ -8,7 +8,13 @@ pages:
 - 'Client':
     - 'Schlüsselverwaltung': key_management.md
     - 'Schlüsselgenerierung': keygen.md
+    - 'Passwort eines Schlüssels ändern': change_password.md
     - 'Konfiguration des SSH Client': ssh_client.md
     - 'SSH Agent': ssh_agent.md
     - 'Port Weiterleitung': port_forwarding.md
 - Autor: author.md
+
+markdown_extensions:
+- smarty
+- toc:
+    permalink: True

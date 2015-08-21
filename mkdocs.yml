@@ -4,7 +4,7 @@ pages:
 - 'Home': index.md
 - 'Server':
     - 'Installation': server_install.md
-    - 'Konfiguration des ssh Daemon': sshd.md
+    - 'Konfiguration OpenSSH Server': server_konfiguration.md
 - 'Client':
     - 'Schlüsselverwaltung': key_management.md
     - 'Schlüsselgenerierung': keygen.md

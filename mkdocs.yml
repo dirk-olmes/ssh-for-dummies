@@ -1,4 +1,8 @@
 site_name: SSH for dummies
+repo_url: https://github.com/dirk-olmes/ssh-for-dummies
+
+# theme: yeti
+# see https://github.com/jimporter/mettle for additional styling of that theme
 
 pages:
 - 'Home': index.md

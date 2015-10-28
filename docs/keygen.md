@@ -25,6 +25,10 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
-Bei der Abfrage des Dateinamens muss man aufpassen: gibt man hier nur den Dateinamen und keinen vollständigen Pfad an, wird das Schlüsselpaar im aktuellen Verzeichnis gespeichert.
+## Schlüsselverzeichnis
+Bei der Generierung des Schlüssels wird auch der Dateiname abgefragt. Ändert man bei dieser Abfrage den Dateinamen, muss man aufpassen: gibt man hier nur den Dateinamen und keinen vollständigen Pfad an, wird das Schlüsselpaar im aktuellen Verzeichnis gespeichert.
 
+Alternativ kann man beim Aufruf von `ssh-keygen` auch gleich die Option `-f <vollständiger Pfad zur Schlüsseldatei>` angeben.
+
+## Schlüssel ohne Passwort
 Man kann einen Schlüssel ohne Passwort generieren, dazu einfach bei der Abfrage des Passworts die Eingabetaste drücken. Dieser Schlüssel ist dann allerdings ungeschützt. Jeder, der den Schlüssel besitzt, kann sich auf dem entfernten System anmelden.
